@@ -60,20 +60,24 @@ const BtnContainer = styled.div`
 	transition: width 5s;
 	border: 5 px solid black;
 	h2 {
+		position: absolute;
+		display: flex;
+		left:20%;
 		padding-bottom: 30px;
 		font-family: "Anton", sans-serif;
 	}
 	.btnWrapper {
-		position: relative;
+		position: absolute;
 		display: flex;
 		align-items: center;
+		
 		justify-content: center;
-		margin-bottom: 75px;
+		padding-bottom: 75px;
 		gap: 50px;
-		background-color: black;
+		
 		width: 15%;
-		height: 11%;
 		border-radius: 25px;
+		
 	}
 	.button {
 		position: absolute;
@@ -113,10 +117,11 @@ const BtnContainer = styled.div`
 			z-index: -1;
 		}
 		&:hover {
+			
 			transition: width 5s;
 			color: black;
 			position: relative;
-			width:29%;
+			font-size: larger;
 			background-color: teal;
 			box-shadow: 2px 2px 50px teal, 2px 2px 50px teal;
 		}
@@ -128,7 +133,7 @@ const MovieContainer = styled.div`
 	align-items: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 8px;
+	margin-top:30px;
 	top: 1;
 	left: 1;
 `;
