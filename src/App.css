@@ -1,0 +1,19 @@
+
+main{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App{
+  position: relative;
+  margin:0px;
+  width:100vw;
+  background-color :#000000;
+ 
+}
+h4{
+  color:white;
+  padding-top:10px;
+  padding-left:20px;
+}
